@@ -10,7 +10,7 @@ This reconstruction system is developed by us, Fredrik Kristoffer Johanssen and 
      width="250" /></p>
 
 
-## Purpose and goals
+## Summary
 The goal of this thesis is to develop a method for reconstructing accurate point cloud representations of indoor environments using the Velodyne LiDAR Puck 16 (VLP-16) and the Tinkerforge IMU 2.0. The following points can summarize the general goals of this thesis:
 * Develop a data acquisition system for collecting LiDAR and IMU data. This system must handle synchronization of the data acquisition in order to prepare the scans for alignment. 
 * Generate high-density point clouds by combining LiDAR and IMU data.
