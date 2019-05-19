@@ -1,0 +1,207 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/FredrikJohanssen/Desktop/master_thesis/c++/data_collection
+-- The C compiler identification is AppleClang 10.0.0.10001145
+-- The CXX compiler identification is AppleClang 10.0.0.10001145
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/local/include/eigen3  
+-- Eigen found (include: /usr/local/include/eigen3, version: 3.3.7)
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:6 (find_package)
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Boost version: 1.68.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Found FLANN: /usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib  
+-- FLANN found (include: /usr/local/Cellar/flann/1.9.1_6/include, lib: optimized;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;debug;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib)
+-- FLANN found (include: /usr/local/Cellar/flann/1.9.1_6/include, lib: optimized;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;debug;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- Found libusb-1.0: /usr/local/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Found Qhull: optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib  
+-- QHULL found (include: /usr/local/include, lib: optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib)
+-- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework  
+-- Found PkgConfig: /usr/local/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'glew'
+--   Found glew, version 2.1.0
+-- Found Glew: GLEW;-framework Cocoa
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/local/lib/libpcl_common.dylib  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.dylib  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.dylib  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.dylib  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.dylib  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.dylib  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/local/include/pcl-1.9  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.9  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/local/lib/libpcl_io.dylib  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.dylib  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/local/lib/libpcl_ml.dylib  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.dylib  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.dylib  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.dylib  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.dylib  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.dylib  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.dylib  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.dylib  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.dylib  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/local/lib/libpcl_apps.dylib  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.dylib  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.dylib  
+-- looking for PCL_SIMULATION
+-- Found PCL_SIMULATION: /usr/local/lib/libpcl_simulation.dylib  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;pcl_simulation;/usr/local/lib/libboost_system-mt.dylib;/usr/local/lib/libboost_filesystem-mt.dylib;/usr/local/lib/libboost_thread-mt.dylib;/usr/local/lib/libboost_date_time-mt.dylib;/usr/local/lib/libboost_iostreams-mt.dylib;/usr/local/lib/libboost_serialization-mt.dylib;/usr/local/lib/libboost_chrono-mt.dylib;/usr/local/lib/libboost_atomic-mt.dylib;/usr/local/lib/libboost_regex-mt.dylib;optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib;optimized;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;debug;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;vtksys;vtkCommonCore;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonDataModel;vtkCommonColor;vtkCommonExecutionModel;vtkCommonComputationalGeometry;vtkFiltersCore;vtkFiltersGeneral;vtkImagingCore;vtkImagingFourier;vtkalglib;vtkFiltersStatistics;vtkFiltersExtraction;vtkInfovisCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingCore;/usr/lib/libz.dylib;vtkfreetype;vtkRenderingFreeType;vtkRenderingContext2D;vtkChartsCore;vtkDICOMParser;vtklz4;vtkIOCore;vtkIOLegacy;/usr/lib/libexpat.dylib;vtkIOXMLParser;vtkDomainsChemistry;vtkglew;vtkRenderingOpenGL2;vtkDomainsChemistryOpenGL2;vtkIOXML;vtkParallelCore;vtkFiltersAMR;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkImagingSources;vtkFiltersHybrid;vtkFiltersHyperTree;vtkImagingGeneral;vtkFiltersImaging;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelImaging;vtkFiltersPoints;vtkFiltersProgrammable;/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/Python;vtkWrappingTools;vtkWrappingPythonCore;vtkFiltersPython;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersTopology;verdict;vtkFiltersVerdict;vtkInteractionStyle;vtkGUISupportQt;vtksqlite;vtkIOSQL;vtkGUISupportQtSQL;vtkmetaio;/usr/local/lib/libjpeg.dylib;/usr/local/lib/libpng.dylib;/usr/local/lib/libtiff.dylib;vtkIOImage;vtkImagingHybrid;vtkInfovisLayout;vtkImagingColor;vtkRenderingAnnotation;vtkRenderingVolume;vtkInteractionWidgets;vtkViewsCore;vtkproj4;vtkGeovisCore;/usr/local/lib/libhdf5.dylib;/usr/local/lib/libsz.dylib;/usr/lib/libdl.dylib;/usr/lib/libm.dylib;/usr/local/lib/libhdf5_hl.dylib;vtkIOAMR;vtkIOEnSight;/usr/local/lib/libnetcdf.dylib;vtkexoIIc;vtkIOExodus;vtkgl2ps;vtkRenderingGL2PSOpenGL2;vtklibharu;vtkIOExport;vtkIOExportOpenGL2;vtkIOGeometry;vtkIOImport;/usr/lib/libxml2.dylib;vtkIOInfovis;vtkIOLSDyna;vtkIOMINC;vtkoggtheora;vtkIOMovie;vtknetcdfcpp;vtkIONetCDF;vtkIOPLY;vtkjsoncpp;vtkIOParallel;vtkIOParallelXML;vtkIOTecplotTable;vtkIOVideo;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInfovisBoostGraphAlgorithms;vtkInteractionImage;vtkRenderingContextOpenGL2;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLOD;vtkRenderingLabel;vtkRenderingQt;vtkRenderingVolumeOpenGL2;vtkViewsContext2D;vtkViewsInfovis;vtkViewsQt (Required is at least version "1.9") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/FredrikJohanssen/Desktop/master_thesis/c++/data_collection/build

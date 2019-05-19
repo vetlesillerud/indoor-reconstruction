@@ -1,0 +1,208 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/FredrikJohanssen/Desktop/master_thesis/c++/interpolation_data_collection
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:21 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:21 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:21 (find_package)
+
+
+-- Boost version: 1.68.0
+-- Found the following Boost libraries:
+--   system
+--   date_time
+--   regex
+CMake Warning at CMakeLists.txt:32 (find_package):
+  By not providing "FindPCAP.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "PCAP", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "PCAP" with any of
+  the following names:
+
+    PCAPConfig.cmake
+    pcap-config.cmake
+
+  Add the installation prefix of "PCAP" to CMAKE_PREFIX_PATH or set
+  "PCAP_DIR" to a directory containing one of the above files.  If "PCAP"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Eigen found (include: /usr/local/include/eigen3, version: 3.3.7)
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:140 (find_package)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:310 (find_boost)
+  /usr/local/share/pcl-1.9/PCLConfig.cmake:545 (find_external_library)
+  CMakeLists.txt:46 (find_package)
+
+
+-- Boost version: 1.68.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- FLANN found (include: /usr/local/Cellar/flann/1.9.1_6/include, lib: optimized;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;debug;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib)
+-- FLANN found (include: /usr/local/Cellar/flann/1.9.1_6/include, lib: optimized;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib;debug;/usr/local/Cellar/flann/1.9.1_6/lib/libflann_cpp.dylib)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- QHULL found (include: /usr/local/include, lib: optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib)
+-- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework  
+-- Checking for module 'glew'
+--   Found glew, version 2.1.0
+-- Found Glew: GLEW;-framework Cocoa
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- looking for PCL_SIMULATION
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/FredrikJohanssen/Desktop/master_thesis/c++/interpolation_data_collection/build

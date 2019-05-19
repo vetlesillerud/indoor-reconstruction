@@ -1,0 +1,3 @@
+/Users/FredrikJohanssen/Desktop/master_thesis/c++/binary_to_ascii_converter/build/CMakeFiles/rebuild_cache.dir
+/Users/FredrikJohanssen/Desktop/master_thesis/c++/binary_to_ascii_converter/build/CMakeFiles/edit_cache.dir
+/Users/FredrikJohanssen/Desktop/master_thesis/c++/binary_to_ascii_converter/build/CMakeFiles/converter.dir
