@@ -15,7 +15,7 @@ These scripts work on:
 This script contains the functions used to perform mathematical operations with quaternions. These functions are utilized **multiway_registration.py** and **interpolate_and_write_full_scans.py** but separated in order to avoid clutter.
 
 ### *config.json*:<a name="config"></a>
-This file contains the key parameters that can be adjusted in order to manipulate the results of **multiway_registration-py** and **interpolate_and_write_full_scans.py**. 
+This file contains the key parameters that can be adjusted in order to manipulate the results of **multiway_registration.py** and **interpolate_and_write_full_scans.py**. 
 This file is created avoid scrolling through all the lines of code to adjust specific parameters. 
 In the parameters ELEMENT indicates a placeholder for either "datapacket", "scan", "fragment" or "odometry". This is because the parameter can be set for each of the indiviual elements. For ICP parameters ELEMENT excludes "datapacket".
 In the parameters METHOD indicates a placeholder for either "point-to-point", "point-to-plane" or "color".
@@ -30,11 +30,11 @@ Parameters contained in this script:
 * **ELEMENT_statistical** - **std_ratio**: decides the standard deviation ratio.
 * **ELEMENT_radius**: Parameter for the radius outlier removal method. Contains additional parameters: **nb_points** and **radius**. Removes points that have less than **nb_points** points in a given sphere of given **radius**.
 * **ELEMENT_radius** - **nb_points**: number of points within the radius
-* **ELEMENT_radius** - **radius***: radius of the sphere
+* **ELEMENT_radius** - **radius**: radius of the sphere
 * **local_icp_method_ELEMENT**: Specifies which ICP method that should be utilized, either "point-to-point", "point-to-point" or "color".
 * **ELEMENT** - **icp** - **METHOD** - **max_correspondence_distance**: maximum correspondence point-pair distance
 * **ELEMENT** - **icp** - **METHOD** - **max_iteration**: maximum number of iterations before iteration stops
-* **ELEMENT** - **icp** - **METHOD** - **relative_fitenss**: if the difference of fitness score is lower than this parameters iteration stops
+* **ELEMENT** - **icp** - **METHOD** - **relative_fitness**: if the difference of fitness score is lower than this parameters iteration stops
 * **ELEMENT** - **icp** - **METHOD** - **relative_rmse**: if the difference of inlier RMSE is lower than this parameter iteration stops
 * **ELEMENT** - **icp** - **color** - **lambda_geometric**: how much the color is weighted in the ICP procedure. If 1, standard point-to-plane is utilized. If 0.5, color and normal vector are weighted equal.
 * **pose_graph_optimization** - **max_correspondence_distance**: the max_correspondence distance utilized in the ICP procedure
@@ -71,7 +71,7 @@ $ python interpolate_and_write_full_scans.py -d fragments/fragment0
 ````
 
 ### *multiway_registration.py*:<a name="multiway_registration"></a>
-This the main script of this thesis. It will do visualization and registration of the point clouds. This script utilizes the parameters of the config.json file.
+This the main script of this thesis. It will do visualization and registration of the point clouds. This script will read PCD-files such as "scan0.pcd", and will utilizes the parameters of the config.json file.
 ````
 usage: multiway_registration.py [-h] [--icp ICP]
                                 [--visualization VISUALIZATION] [--verbose]
