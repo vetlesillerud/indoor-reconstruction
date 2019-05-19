@@ -9,6 +9,7 @@ These scripts work on:
 2. [interpolate_and_write_full_scans.py](#interpolate_and_write_full_scans)
 3. [multiway_registration.py](#multiway_registration)
 
+<script src="https://embed.github.com/view/3d/vetlesillerud/indoor-reconstruction/master/no_roof.stl"></script>
 ## Information:
 ### *quaternions.py*:<a name="quaternions"></a>
 This script contains the functions used to perform mathematical operations with quaternions. These functions are utilized **multiway_registration.py** and **interpolate_and_write_full_scans.py** but separated in order to avoid clutter.
