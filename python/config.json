@@ -1,0 +1,125 @@
+{
+    "name": "Test config",
+    "dataset_name": "wallpaper",
+    "fragment_name": "fragment1",
+    "datapacket_voxel_size": 0.01,
+    "scan_voxel_size": 0.05,
+    "fragment_voxel_size": 0.01,
+    "odometry_voxel_size": 0.15,
+    "datapacket_outlier_removal": "None",
+    "scan_outlier_removal": "None",
+    "fragment_outlier_removal": "None",
+    "odometry_outlier_removal": "None",
+    "datapacket_statistical": {
+        "nb_neighbors": 20,
+        "std_ratio": 2
+    },
+    "datapacket_radius": {
+        "nb_points": 20,
+        "radius": 0.4
+    },
+    "scan_statistical": {
+        "nb_neighbors": 20,
+        "std_ratio": 2
+    },
+    "scan_radius": {
+        "nb_points": 20,
+        "radius": 0.4
+    },
+    "fragment_statistical": {
+        "nb_neighbors": 20,
+        "std_ratio": 2
+    },
+    "fragment_radius": {
+        "nb_points": 20,
+        "radius": 0.4
+    },
+    "odometry_statistical": {
+        "nb_neighbors": 20,
+        "std_ratio": 2
+    },
+    "odometry_radius": {
+        "nb_points": 20,
+        "radius": 0.4
+    },
+    "estimate_normals": {
+        "radius": 1,
+        "max_nn": 150
+    },
+    "local_icp_method_scan": "color",
+    "local_icp_method_fragment": "color",
+    "local_icp_method_odometry": "color",
+    "scan": {
+        "icp": {
+            "point-to-point": {
+                "max_correspondence_distance": 0.2,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "point-to-plane": {
+                "max_correspondence_distance": 0.2,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "color": {
+                "max_correspondence_distance": 0.3,
+                "lambda_geometric": 1,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            }
+        }
+    },
+    "fragment": {
+        "icp": {
+            "point-to-point": {
+                "max_correspondence_distance": 1.5,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "point-to-plane": {
+                "max_correspondence_distance": 1.5,
+                "max_iteration": 50,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "color": {
+                "max_correspondence_distance": 0.2,
+                "lambda_geometric": 1,
+                "max_iteration": 200,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            }
+        }
+    },
+    "odometry": {
+        "icp": {
+            "point-to-point": {
+                "max_correspondence_distance": 0.5,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "point-to-plane": {
+                "max_correspondence_distance": 0.2,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            },
+            "color": {
+                "max_correspondence_distance": 0.45,
+                "lambda_geometric": 1,
+                "max_iteration": 30,
+                "relative_fitness": 0.000001,
+                "relative_rmse": 0.000001
+            }
+        }
+    },
+    "pose_graph_optimization": {
+        "max_correspondence_distance": 0.2,
+        "edge_prune_threshold": 0.25
+    }
+}
