@@ -29,15 +29,17 @@ How to use this script with command line arguments:
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| --h      | Prints a help message|
-| --d   | Directory name of where to save the pcds |
-| --f   | Specify fragment number |
-| --o   | or: specify odometry number |
-| --start   | Specify field of view start degree [0-359]|
-| --end   | Specify field of view end degree [0-359] |
+| -h      | Prints a help message|
+| -d   | Directory name of where to save the pcds |
+| -f   | Specify fragment number |
+| -o   | or: specify odometry number |
+| -start   | Specify field of view start degree [0-359]|
+| -end   | Specify field of view end degree [0-359] |
 
 Example usage: 
+
 `./interpolation_vlp -d test_dir -f 0 -start 270 -end 90`
+
 press **ctrl c** to stop the data collection. 
 
 
@@ -49,16 +51,19 @@ How to use this script with command line arguments:
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| --h      | Prints a help message|
-| --p <*.pcap>  | Velodyne capture from pcap file |
-| --s   | Velodyne capture from sensor |
-| --f   | Fast mode: Use space to start and stop writing pcds. Default: press space to write one scan as pcd.  |
-| --d   | Directory name of where to save the pcds|
+| -h      | Prints a help message|
+| -p <*.pcap>  | Velodyne capture from pcap file |
+| -s   | Velodyne capture from sensor |
+| -f   | Fast mode: Use space to start and stop writing pcds. Default: press space to write one scan as pcd.  |
+| -d   | Directory name of where to save the pcds|
 
 
 Example usage: 
+
 `./vlp -s -f -d test_dir`
+
 press **ctrl c** to stop the data collection. 
+
 Here, the FOV needs to be changed in the Webinterface. 
 
 
@@ -68,7 +73,9 @@ These scripts are from [Tinkerforge](https://github.com/Tinkerforge/imu-v2-brick
 
 ### *binary_to_ascii_converter*:<a name="converter"></a>
 This script simply converts an input ASCII pcd to a binary pcd file. 
+
 Example usage: 
+
 `./converter some_ascii_pcd_file.pcd`
 
 
