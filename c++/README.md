@@ -29,12 +29,12 @@ How to use this script with command line arguments:
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| --h      | Prints a help message|
-| --d   | Directory name of where to save the pcds |
-| --f   | Specify fragment number |
-| --o   | or: specify odometry number |
-| --start   | Specify field of view start degree [0-359]|
-| --end   | Specify field of view end degree [0-359] |
+| -h      | Prints a help message|
+| -d   | Directory name of where to save the pcds |
+| -f   | Specify fragment number |
+| -o   | or: specify odometry number |
+| -start   | Specify field of view start degree [0-359]|
+| -end   | Specify field of view end degree [0-359] |
 
 Example usage: 
 
@@ -51,11 +51,11 @@ How to use this script with command line arguments:
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| --h      | Prints a help message|
-| --p <*.pcap>  | Velodyne capture from pcap file |
-| --s   | Velodyne capture from sensor |
-| --f   | Fast mode: Use space to start and stop writing pcds. Default: press space to write one scan as pcd.  |
-| --d   | Directory name of where to save the pcds|
+| -h      | Prints a help message|
+| -p <*.pcap>  | Velodyne capture from pcap file |
+| -s   | Velodyne capture from sensor |
+| -f   | Fast mode: Use space to start and stop writing pcds. Default: press space to write one scan as pcd.  |
+| -d   | Directory name of where to save the pcds|
 
 
 Example usage: 
