@@ -1,4 +1,8 @@
 # indoor-reconstruction
+<p align="center">
+<img src="/images/blackbox.gif"
+     alt="Blackbox animation"
+     width="500" /></p>
 This repository uses Git Large File Storage because of the data set that is supplied. This extension can be found at: https://git-lfs.github.com. To pull the data set, run ``git lfs pull``. 
 
 This reconstruction system is developed by us, Fredrik Kristoffer Johanssen and Vetle Smedbakken Sillerud, as part of our master thesis in Cybernetics; "Reconstruction of Indoor Environments Using LiDAR and IMU." Below is a reconstruction of both authors; Fredrik on the left, and Vetle on the right. 
