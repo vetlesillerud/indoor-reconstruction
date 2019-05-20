@@ -1,5 +1,5 @@
 # indoor-reconstruction
-
+This repository uses Git Large File Storage because of the data set that is supplied. This extension can be found at: https://git-lfs.github.com. To pull the data set, run ``git lfs pull``. 
 
 This reconstruction system is developed by us, Fredrik Kristoffer Johanssen and Vetle Smedbakken Sillerud, as part of our master thesis in Cybernetics; "Reconstruction of Indoor Environments Using LiDAR and IMU." Below is a reconstruction of both authors; Fredrik on the left, and Vetle on the right. 
 <p align="center">
@@ -44,7 +44,7 @@ Result from one stationary position:
 
 Results from several positions with odometry estimate between each:
 
-The coordinate frames, in red, green and blue, indicated the position where a subset is generated. The circles with arrows indicate the position where a snapshot of the reconstructed environment is taken, along with the an image of the actual scene from this position. The arrow indicate in which direction the snapshot is captured. The orange line indicate the translation trajectory travelled during this acquisition.
+The coordinate frames, in red, green and blue, indicates the position where a subset is generated. The circles with arrows indicate the position where a snapshot of the reconstructed environment is taken, along with the an image of the actual scene from this position. The arrow indicate in which direction the snapshot is captured. The orange line indicate the translation trajectory travelled during this acquisition.
 <p align="center">
 <img src="/images/hallway_overview.png"
      alt="Hallway"
