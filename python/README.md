@@ -41,7 +41,7 @@ Parameters contained in this script:
 * **pose_graph_optimization** - **edge_prune_threshold**: if loop closure are not associated with a value higher that this parameter, the loop closure are pruned.
 
 ### *interpolate_and_write_full_scans.py*:<a name="interpolate_and_write_full_scans"></a>
-This script will read data packet PCD-files, e.g., "scan_0_1.pcd" and interpolate the quaternions in "quaternions_datapacket.csv". It will then transform the individual data packets with the interpolated quaternions and combine these data packets to a scan representing the scope used for acquisition.
+This script reads data packet PCD-files, e.g., "scan_0_1.pcd" and interpolates the quaternions in "quaternions_datapacket.csv". It then transforms the individual data packets with the interpolated quaternions and combine these data packets to a scan representing the scope used for acquisition.
 The linear interpolation is done by comparing each quaternion with the previous and collecting these similar, subsequent quaternions.  These collected quaternions are interpolated from the first quaternion of a similar sequence, until the value of the quaternion that breaks this sequence.
 ````
 usage: interpolate_and_write_full_scans.py [-h] [--visualization]
@@ -71,7 +71,7 @@ $ python interpolate_and_write_full_scans.py -d fragments/fragment0
 ````
 
 ### *multiway_registration.py*:<a name="multiway_registration"></a>
-This the main script of this thesis. It will do visualization and registration of the point clouds. This script will read PCD-files such as "scan0.pcd", and will utilizes the parameters of the config.json file.
+This the main script of this thesis. It visualizes and registers the point clouds. This script reads PCD-files such as "scan0.pcd", and utilizes the parameters of the config.json file.
 ````
 usage: multiway_registration.py [-h] [--icp ICP]
                                 [--visualization VISUALIZATION] [--verbose]
