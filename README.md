@@ -19,7 +19,7 @@ We conclude that at subset level, our reconstruction system can reconstruct high
 
 
 ## System setup
-The system setup consist of; Tinkerforge IMU 2.0, 3D printed IMU mounting cap, VLP-16 LiDAR, Hama Star 61 153-3D tripod, VLP-16 Interface Box, Computer.
+The system setup consists of; Tinkerforge IMU 2.0, 3D printed IMU mounting cap, VLP-16 LiDAR, Hama Star 61 153-3D tripod, VLP-16 Interface Box, Computer.
 <p align="center">
 <img src="/images/system_setup.png"
      alt="System Setup"
@@ -27,7 +27,7 @@ The system setup consist of; Tinkerforge IMU 2.0, 3D printed IMU mounting cap, V
 
 
 ## Developed method
-Our developed method consist of two parts: data acquisition and data processing. The data acquisition is written in C++ and can be found in the C++ folder. The data processing is written in python and can be found in the python folder. 
+Our developed method consists of two parts: data acquisition and data processing. The data acquisition is written in C++ and can be found in the C++ folder. The data processing is written in python and can be found in the python folder. 
 
 
 
