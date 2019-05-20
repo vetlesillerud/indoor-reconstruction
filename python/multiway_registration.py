@@ -30,7 +30,7 @@ def parse_args():
             generate (bool): True if both odometry and fragments in should be generated before registering fragments.
                             False if previously generated pose graphs and clouds should be used to register fragments.
             blensor (bool): True if scans generated in blensor should be used
-            trajectory (bool): True registered clouds should be visualized with trajectory
+            trajectory (bool): True if registered clouds should be visualized with trajectory
     """
     parser = argparse.ArgumentParser(
         description="Multiway registration script for point cloud data. Supported point cloud format: .pcd")
@@ -145,7 +145,7 @@ def color_with_intensity(cloud, filename):
                         cloud.colors[j - 11] = [red, green, blue]
                     else:
                         print("No intensity data found")
-    except UnicodeDecodeError:  # if the point cloud data is e.g. binary
+    except UnicodeDecodeError:  # if the point cloud data is binary
         pass
     return cloud
 
@@ -530,7 +530,7 @@ def make_transformation_matrices(quaternions, positions, interpolated=True):
         list: list of numpy.ndarrays of relative transformation between each set of quaternions and positions
     """
     relative_matrices = []
-    translation_transform = []  # list with transforms, in order to transform translation to belongning frame
+    translation_transform = []  # list with transforms, in order to transform translation to belonging frame
     for n, _ in enumerate(quaternions):
         if n == 0:  # initalizations
             relative_rotation, tripod_transformation = make_rotation_matrix(quaternions[n], quaternions[n], n)
@@ -788,8 +788,8 @@ def write_read_and_draw_combined_geometries(cloud, filename, path, trajectory=Fa
         filename (str): name of point cloud to be written
         path (str): path to folder where all fragment folders are located
         trajectory (bool): True if trajectory should be visualized (default: False)
-        odometry_paths (list): list of strings represetning the path to odometry folders (default: empty list)
-        fragment_paths (list): list of strings represetning the path to fragment folders (default: empty list)
+        odometry_paths (list): list of strings representing the path to odometry folders (default: empty list)
+        fragment_paths (list): list of strings representing the path to fragment folders (default: empty list)
 
     Returns:
         None
@@ -834,8 +834,8 @@ def create_trajectory(odometry_paths, fragment_paths, cloud):
             translations.append(copy.deepcopy(pose.pose[:3, 3]))  # get translation in pose graph
         points = [list(previous_last_point)]
         lines = []
-        translations.pop()  # last translation tends to be currupted
-        translations.pop(0)  # first translation tends to be currupted
+        translations.pop()  # last translation tends to be erroneous. LiDAR is also mostly stationary in these cases
+        translations.pop(0)  # first translation tends to be currupted. LiDAR is also mostly stationary in these cases
         for t in translations:
             p = list(previous_last_point + t)
             p[2] = 0  # assuming no z-translation
@@ -1061,6 +1061,7 @@ if __name__ == "__main__":
         clouds, outliers, _ = load_point_clouds(path, element=element, voxel_size=config[element + "_voxel_size"],
                                                 blensor=blensor)
         transformation_matrices = make_transformation_matrices(quaternions, positions)
+        print("Visualizing initial alignment...")
         transform_and_visualize_point_clouds(clouds=clouds, outliers=outliers,
                                              relative_transformation=transformation_matrices, path=path)
         pose_graph = full_registration(clouds, transformation_matrices, verbose, element=element)
