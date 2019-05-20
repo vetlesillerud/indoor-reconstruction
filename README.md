@@ -43,7 +43,8 @@ Result from one stationary position:
 
 
 Results from several positions with odometry estimate between each:
-The coordinate frames, in red, green and blue, indicated the position where a subset is generated. The circles with arrows indicate the position where a snapshot of the reconstructed environment is taken, along with the an image of the actual scene from this position. The arrow indicate in which direction the snapshot is captured.
+
+The coordinate frames, in red, green and blue, indicated the position where a subset is generated. The circles with arrows indicate the position where a snapshot of the reconstructed environment is taken, along with the an image of the actual scene from this position. The arrow indicate in which direction the snapshot is captured. The orange line indicate the translation trajectory travelled during this acquisition.
 <p align="center">
 <img src="/images/hallway_overview.png"
      alt="Hallway"
