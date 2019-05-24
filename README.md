@@ -79,7 +79,7 @@ The coordinate frames, in red, green and blue, indicates the position where a su
      width="447" /></p>
 
 ## Datasets
-We supply one data set in this repository due to space limitations. Other data sets can by found at LINK. We divide one LiDAR scan, i.e., acquisition of points in one instance of the LiDAR acquisition scope, into data packets to handle movement over time better.
+We supply one data set in this repository due to space limitations. Other data sets can be provided upon request. We divide one LiDAR scan, i.e., acquisition of points in one instance of the LiDAR acquisition scope, into data packets to handle movement over time better.
 The data sets are structured in the following manner:
 * All data is contained in the main directory. The main directory is named with the name of the data set, e.g. "poster", as supplied in this repository.
 * Subdirectory "fragments" contains all the data of the subsets, i.e. fragments, of the environment. These are named by order they are acquired, i.e., "fragment0" are acquired before "fragment1".
