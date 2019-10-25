@@ -66,16 +66,17 @@ if( PCAP_FOUND OR Boost_FOUND OR PCL_FOUND )
   #  add_definitions( -DHAVE_FAST_PCAP )    # Disable sleep while reading a pcap
 
     # Additional Library Directories
-    link_directories( ${Boost_LIBRARY_DIRS} )
-    link_directories( ${OpenCV_LIB_DIR} )
-    link_directories( ${PCL_LIBRARY_DIRS} )
+    target_link_directories( interpolation_vlp
+                             PUBLIC ${Boost_LIBRARY_DIRS}
+                                    ${OpenCV_LIB_DIR}
+				    ${PCL_LIBRARY_DIRS} )
 
     # Additional Dependencies
-    target_link_libraries( interpolation_vlp ${CMAKE_THREAD_LIBS_INIT} )
-    target_link_libraries( interpolation_vlp ${Boost_LIBRARIES} )
-    target_link_libraries( interpolation_vlp ${PCAP_LIBRARIES} )
-    target_link_libraries( interpolation_vlp ${OpenCV_LIBS} )
-    target_link_libraries(interpolation_vlp ${PCL_LIBRARIES})
+    target_link_libraries( interpolation_vlp ${CMAKE_THREAD_LIBS_INIT}
+                                             ${Boost_LIBRARIES}
+                                             ${PCAP_LIBRARIES}
+                                             ${OpenCV_LIBS}
+                                             ${PCL_LIBRARIES})
 
 else()
     message( WARNING "VelodyneCapture need at least either Boost or PCAP." )
